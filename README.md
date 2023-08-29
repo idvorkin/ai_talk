@@ -4,7 +4,7 @@
 
 Install docker and docker-compose
 
-    git clone idvorkin/ai_talk
+    git clone https://github.com/idvorkin/ai_talk
     docker-compose build talk
 
 ### Run
