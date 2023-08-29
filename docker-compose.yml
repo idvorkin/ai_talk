@@ -11,6 +11,7 @@ services:
       - ./app:/notebooks
       - ./docker-compose.yml:/app/docker-compose.yml:ro
       - ./Dockerfile:/app/Dockerfile:ro
+      - ./coding_llms.ipynb:/notebooks/coding_llms.ipynb
     profiles: ["exclude-from-up"]
     ports:
       - 8888:8888
