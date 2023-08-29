@@ -2,15 +2,15 @@
 
 ### Install and Build
 
-* Install docker and docker-compose
+Install docker and docker-compose
 
     Use your favorite method
 
-* Clone the repo
+Clone the repo
 
     git clone https://github.com/idvorkin/ai_talk
 
-* Build the service
+Build the service
 
     docker-compose build talk
 
