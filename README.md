@@ -15,3 +15,7 @@ Install docker and docker-compose
 ### Reset your passwod
 
     ./reset_password
+
+### View the notebook
+
+* Open jupyter [locally](http://localhost:8888)
