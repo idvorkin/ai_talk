@@ -1,5 +1,9 @@
 # Coding LLMs talk
 
+### The talk (before we start coding)
+
+![](building_systems_with_llms.gif)
+
 ### Install and Build
 
 Install docker and docker-compose
