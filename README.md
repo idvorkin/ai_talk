@@ -10,6 +10,7 @@ Download the [Powerpoint](building_systems_with_llms.pptx).
 
 
 #### The code we go through:
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 [Jupyter Notebook](https://github.com/idvorkin/ai_talk/blob/main/coding_llms.ipynb)
 
