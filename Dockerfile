@@ -8,14 +8,11 @@ EXPOSE 8888
 
 RUN pip3 install pipenv
 
-# TODO, consider only installing these via Pipenv
-RUN pip3 install jupyterlab
-RUN pip3 install icecream  rich pydantic loguru pudb  langchain typing_extensions openai
+COPY Pipfile* .
+RUN pipenv install --system
 
 #
 # Helpful to debug
 
 # Enable root since running in container
 # RUN jupyter-lab --allow-root
-
-
