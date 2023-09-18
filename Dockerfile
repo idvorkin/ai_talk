@@ -6,6 +6,9 @@ FROM python:3.10
 
 EXPOSE 8888
 
+RUN pip3 install pipenv
+
+# TODO, consider only installing these via Pipenv
 RUN pip3 install jupyterlab
 RUN pip3 install icecream  rich pydantic loguru pudb  langchain typing_extensions openai
 
