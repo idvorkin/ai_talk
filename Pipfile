@@ -11,12 +11,17 @@ loguru = "*"
 langchain = "*"
 typing-extensions = "*"
 openai = "*"
-
-[dev-packages]
+jupyter-ai = "*"
 pudb = "*"
 jupyterlab = "*"
 black = "*"
 jupytext = "*"
+
+[dev-packages]
+
+# I'm not sure why, but when I put some of the packges in dev packages
+# I can't find certain imports, so keeping it all in packages for now
+# since I'm not creating a module
 
 [requires]
 python_version = "3.10"
