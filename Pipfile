@@ -11,11 +11,16 @@ loguru = "*"
 langchain = "*"
 typing-extensions = "*"
 openai = "*"
-jupyter-ai = "*"
 pudb = "*"
 jupyterlab = "*"
 black = "*"
 jupytext = "*"
+python-lsp-server  = "*"
+jupyterlab-lsp = "*"
+
+
+# jupyter-ai hasn't been much fun :(
+# jupyter-ai = "*"
 
 [dev-packages]
 
