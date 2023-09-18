@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+icecream = "*"
+rich = "*"
+pydantic = "*"
+loguru = "*"
+langchain = "*"
+typing-extensions = "*"
+openai = "*"
+
+[dev-packages]
+pudb = "*"
+jupyterlab = "*"
+black = "*"
+jupytext = "*"
+
+[requires]
+python_version = "3.10"
+
+[scripts]
+start = "jupyter-lab"
+start-docker = "run.me"
+build = "jupyter-lab build"
+reset_password = "reset_password"
