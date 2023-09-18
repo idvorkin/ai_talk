@@ -2,9 +2,9 @@
 
 In a time long ago, programmers wrote in assembly language, fine-tuned for their processor, and had to write the support systems they required, like compilers, libraries, and operating systems to manage memory, network, and disk.
 
-Today, with "LLVM programming", the prompt is not the program, but the assembly language tuned for a processor. We programmers need to rebuild the compiler, OS, libraries, and memory subsystems, and I'll show you how.
+Today, with "AI programming", the prompt is not the program, but the assembly language tuned for a processor. We programmers need to rebuild the compiler, OS, libraries, and memory subsystems, and I'll show you how.
 
-In the transition from pre-web to mobile, many concepts unimaginable in the pre-web world are the default approach taken today. We can begin to grasp these same types of concepts with LLVMs, and we'll uncover those as we go through the code.
+In the transition from pre-web to mobile, many concepts unimaginable in the pre-web world are the default approach taken today. We can begin to grasp these same types of concepts with AI, and we'll uncover those as we go through the code.
 
 #### The before we get our hands dirty context
 
