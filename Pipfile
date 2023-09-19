@@ -16,14 +16,11 @@ jupyterlab = "*"
 black = "*"
 jupytext = "*"
 python-lsp-server  = "*"
-jupyterlab-lsp = "*"
-
-
+jupyterlab-lsp = "==5.0.0rc0"
 # jupyter-ai hasn't been much fun :(
 # jupyter-ai = "*"
 
 [dev-packages]
-
 # I'm not sure why, but when I put some of the packges in dev packages
 # I can't find certain imports, so keeping it all in packages for now
 # since I'm not creating a module
