@@ -19,6 +19,7 @@ python-lsp-server  = "*"
 jupyterlab-lsp = "==5.0.0rc0"
 # jupyter-ai hasn't been much fun :(
 # jupyter-ai = "*"
+gpt4all = "*"
 
 [dev-packages]
 # I'm not sure why, but when I put some of the packges in dev packages
